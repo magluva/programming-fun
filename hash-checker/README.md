@@ -8,7 +8,7 @@
 >          Using certUtil/PowerShell
 >```
 
-## [OVERVIEW]
+## OVERVIEW
 
 This script asks for user input of the algorithm (SHA1, SHA256, MD5, etc.), the thumbprint listed the 
 on download/dev page and the path to the downloaded program (C:\\Users\User\Downloads\file.exe, etc.).
@@ -21,7 +21,7 @@ Final output is:
 Keys are an exact match ... || WARNING: Keys do not match! 
 
 
-## [PYTHON SCRIPT]
+## PYTHON SCRIPT
 
 The python script requires python 3.xx and powerShell installed on your computer.
 To run: open cmd or custom python environment and run python hash_checker.py and follow instructions.
@@ -32,7 +32,7 @@ Notes:
 - If you get "command not recognized", check your PATH
  
 
-## [CMD FILE]
+## CMD FILE
 
 This is a batch-like cmd script that uses certUtil as the mechanism to calculate hash sum and compare.
 The program will work with !out of the box" windows and older versions without the need to install any third party
@@ -45,5 +45,5 @@ Notes:
 - If you get "command not recognized", check your PATH
 
 
-## [TODO]
+## TODO
 Will at C program using OpenSSL for Linux in the future.
