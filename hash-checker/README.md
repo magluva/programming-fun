@@ -35,11 +35,12 @@ Notes:
 ## CMD FILE
 
 This is a batch-like cmd script that uses certUtil as the mechanism to calculate hash sum and compare.
-The program will work with !out of the box" windows and older versions without the need to install any third party
-software. This is because certUtils has shipped with windows for some time.
+The program will work with "out of the box" windows and older versions without the need to install any third party
+software. This is because certUtil has shipped with windows for some time.
 To run: Simply double click the batch file from anywhere.
 
 Notes:
+- You will need to put the logo.txt in the same dir as HashChecker.cmd
 - The path to .exe does not need double backslashes, 
   like this: C:\\Users\User\Folder\file.exe
 - If you get "command not recognized", check your PATH
